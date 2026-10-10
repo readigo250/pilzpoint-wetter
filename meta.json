@@ -1,0 +1,51 @@
+{
+  "stand": "2026-10-09",
+  "erzeugt": "2026-10-10T09:17:08.142Z",
+  "quellen": {
+    "tas_hyras_1_2026_v6-1_de.nc": "2026-10-10T08:55:16.000Z",
+    "pr_hyras_1_2026_v6-1_de.nc": "2026-10-10T08:20:12.000Z",
+    "hurs_hyras_1_2026_v6-1_de.nc": "2026-10-10T09:05:29.000Z",
+    "grids_germany_daily_evaporation_fao_2026_v1.1.nc": "2026-10-10T05:05:24.000Z"
+  },
+  "quelle": "Deutscher Wetterdienst, HYRAS-DE-PRE, -TAS und -HURS sowie tägliche Raster der FAO-Grasreferenzverdunstung (eigene Berechnung)",
+  "west": 5.8,
+  "south": 47.2,
+  "east": 15.1,
+  "north": 55.1,
+  "schritt": 0.0125,
+  "breite": 744,
+  "hoehe": 632,
+  "nodata": 255,
+  "fuellungMax": 254,
+  "skalen": {
+    "r7": 0.5,
+    "et7": 0.2,
+    "regen": 0.5,
+    "verdSumme": 0.5,
+    "tempSchritt": 0.3,
+    "tempOffset": -30
+  },
+  "tage": [
+    "2026-10-09",
+    "2026-10-08",
+    "2026-10-07",
+    "2026-10-06",
+    "2026-10-05",
+    "2026-10-04",
+    "2026-10-03",
+    "2026-10-02",
+    "2026-10-01",
+    "2026-09-30",
+    "2026-09-29",
+    "2026-09-28",
+    "2026-09-27",
+    "2026-09-26"
+  ],
+  "historie": 45,
+  "luftfeuchteTage": 10,
+  "verdunstung": {
+    "quelle": "dwd-fao",
+    "faoTage": 45,
+    "ersatzTage": []
+  }
+}
